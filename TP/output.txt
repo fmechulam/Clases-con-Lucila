@@ -1,0 +1,548 @@
+ingrese nombres de pokemones ( <espacio>  para terminar)
+-------------------------
+pokemon pidgeot
+altura : 150 cm
+peso : 39 kg
+habilidades :
+ * Vista Lince
+ * Tumbos
+ * Sacapecho
+-------------------------
+pokemon raticate
+altura : 70 cm
+peso : 18 kg
+habilidades :
+ * Fuga
+ * Agallas
+ * Entusiasmo
+-------------------------
+pokemon fearow
+altura : 120 cm
+peso : 38 kg
+habilidades :
+ * Vista Lince
+ * Francotirador
+-------------------------
+pokemon wigglytuff
+altura : 100 cm
+peso : 12 kg
+habilidades :
+ * Gran Encanto
+ * Tenacidad
+ * Cacheo
+-------------------------
+pokemon persian
+altura : 100 cm
+peso : 32 kg
+habilidades :
+ * Flexibilidad
+ * Experto
+ * Nerviosismo
+-------------------------
+pokemon dodrio
+altura : 180 cm
+peso : 85 kg
+habilidades :
+ * Fuga
+ * Madrugar
+ * Tumbos
+-------------------------
+pokemon chansey
+altura : 110 cm
+peso : 34 kg
+habilidades :
+ * Cura Natural
+ * Dicha
+ * Alma Cura
+-------------------------
+pokemon kangaskhan
+altura : 220 cm
+peso : 80 kg
+habilidades :
+ * Madrugar
+ * Intrépido
+ * Foco Interno
+-------------------------
+pokemon tauros
+altura : 140 cm
+peso : 88 kg
+habilidades :
+ * Intimidación
+ * Irascible
+ * Potencia Bruta
+-------------------------
+pokemon snorlax
+altura : 210 cm
+peso : 460 kg
+habilidades :
+ * Inmunidad
+ * Sebo
+ * Gula
+-------------------------
+pokemon furret
+altura : 180 cm
+peso : 32 kg
+habilidades :
+ * Fuga
+ * Vista Lince
+ * Cacheo
+-------------------------
+pokemon noctowl
+altura : 160 cm
+peso : 40 kg
+habilidades :
+ * Insomnio
+ * Vista Lince
+ * Cromolente
+-------------------------
+pokemon girafarig
+altura : 150 cm
+peso : 41 kg
+habilidades :
+ * Foco Interno
+ * Madrugar
+ * Herbívoro
+-------------------------
+pokemon dunsparce
+altura : 150 cm
+peso : 14 kg
+habilidades :
+ * Dicha
+ * Fuga
+ * Cobardía
+-------------------------
+pokemon ursaring
+altura : 180 cm
+peso : 125 kg
+habilidades :
+ * Agallas
+ * Pies Rápidos
+ * Nerviosismo
+-------------------------
+pokemon porygon2
+altura : 60 cm
+peso : 32 kg
+habilidades :
+ * Rastro
+ * Descarga
+ * Cálculo Final
+-------------------------
+pokemon stantler
+altura : 140 cm
+peso : 71 kg
+habilidades :
+ * Intimidación
+ * Cacheo
+ * Herbívoro
+-------------------------
+pokemon miltank
+altura : 120 cm
+peso : 75 kg
+habilidades :
+ * Sebo
+ * Intrépido
+ * Herbívoro
+-------------------------
+pokemon blissey
+altura : 150 cm
+peso : 46 kg
+habilidades :
+ * Cura Natural
+ * Dicha
+ * Alma Cura
+-------------------------
+pokemon linoone
+altura : 50 cm
+peso : 32 kg
+habilidades :
+ * Recogida
+ * Gula
+ * Pies Rápidos
+-------------------------
+pokemon swellow
+altura : 70 cm
+peso : 19 kg
+habilidades :
+ * Agallas
+ * Intrépido
+-------------------------
+pokemon vigoroth
+altura : 140 cm
+peso : 46 kg
+habilidades :
+ * Espíritu Vital
+-------------------------
+pokemon slaking
+altura : 200 cm
+peso : 130 kg
+habilidades :
+ * Ausente
+-------------------------
+pokemon exploud
+altura : 150 cm
+peso : 84 kg
+habilidades :
+ * Insonorizar
+ * Intrépido
+-------------------------
+pokemon zangoose
+altura : 130 cm
+peso : 40 kg
+habilidades :
+ * Inmunidad
+ * Ímpetu Tóxico
+-------------------------
+pokemon castform
+altura : 30 cm
+peso : 0 kg
+habilidades :
+ * Predicción
+-------------------------
+pokemon kecleon
+altura : 100 cm
+peso : 22 kg
+habilidades :
+ * Cambio Color
+ * Mutatipo
+-------------------------
+pokemon staraptor
+altura : 120 cm
+peso : 24 kg
+habilidades :
+ * Intimidación
+ * Audaz
+-------------------------
+pokemon bibarel
+altura : 100 cm
+peso : 31 kg
+habilidades :
+ * Simple
+ * Ignorante
+ * Veleta
+-------------------------
+pokemon ambipom
+altura : 120 cm
+peso : 20 kg
+habilidades :
+ * Experto
+ * Recogida
+ * Encadenado
+-------------------------
+pokemon lopunny
+altura : 120 cm
+peso : 33 kg
+habilidades :
+ * Gran Encanto
+ * Zoquete
+ * Flexibilidad
+-------------------------
+pokemon purugly
+altura : 100 cm
+peso : 43 kg
+habilidades :
+ * Sebo
+ * Ritmo Propio
+ * Competitivo
+-------------------------
+pokemon chatot
+altura : 50 cm
+peso : 1 kg
+habilidades :
+ * Vista Lince
+ * Tumbos
+ * Sacapecho
+-------------------------
+pokemon lickilicky
+altura : 170 cm
+peso : 140 kg
+habilidades :
+ * Ritmo Propio
+ * Despiste
+ * Aclimatación
+-------------------------
+pokemon porygon-z
+altura : 90 cm
+peso : 34 kg
+habilidades :
+ * Adaptable
+ * Descarga
+ * Cálculo Final
+-------------------------
+pokemon regigigas
+altura : 370 cm
+peso : 420 kg
+habilidades :
+ * Inicio Lento
+-------------------------
+pokemon arceus
+altura : 320 cm
+peso : 320 kg
+habilidades :
+ * Multitipo
+-------------------------
+pokemon watchog
+altura : 110 cm
+peso : 27 kg
+habilidades :
+ * Iluminación
+ * Vista Lince
+ * Cálculo Final
+-------------------------
+pokemon stoutland
+altura : 120 cm
+peso : 61 kg
+habilidades :
+ * Intimidación
+ * Ímpetu Arena
+ * Intrépido
+-------------------------
+pokemon unfezant
+altura : 120 cm
+peso : 29 kg
+habilidades :
+ * Sacapecho
+ * Afortunado
+ * Rivalidad
+-------------------------
+pokemon audino
+altura : 110 cm
+peso : 31 kg
+habilidades :
+ * Alma Cura
+ * Regeneración
+ * Zoquete
+-------------------------
+pokemon cinccino
+altura : 50 cm
+peso : 7 kg
+habilidades :
+ * Gran Encanto
+ * Experto
+ * Encadenado
+-------------------------
+pokemon sawsbuck
+altura : 190 cm
+peso : 92 kg
+habilidades :
+ * Clorofila
+ * Herbívoro
+ * Dicha
+-------------------------
+pokemon bouffalant
+altura : 160 cm
+peso : 94 kg
+habilidades :
+ * Audaz
+ * Herbívoro
+ * Insonorizar
+-------------------------
+pokemon braviary
+altura : 150 cm
+peso : 41 kg
+habilidades :
+ * Vista Lince
+ * Potencia Bruta
+ * Competitivo
+-------------------------
+pokemon meloetta-aria
+altura : 60 cm
+peso : 6 kg
+habilidades :
+ * Dicha
+-------------------------
+pokemon diggersby
+altura : 100 cm
+peso : 42 kg
+habilidades :
+ * Recogida
+ * Carrillo
+ * Potencia
+-------------------------
+pokemon pyroar
+altura : 150 cm
+peso : 81 kg
+habilidades :
+ * Rivalidad
+ * Nerviosismo
+ * Autoestima
+-------------------------
+pokemon furfrou
+altura : 120 cm
+peso : 28 kg
+habilidades :
+ * Pelaje Recio
+-------------------------
+pokemon heliolisk
+altura : 100 cm
+peso : 21 kg
+habilidades :
+ * Piel Seca
+ * Velo Arena
+ * Poder Solar
+-------------------------
+pokemon toucannon
+altura : 110 cm
+peso : 26 kg
+habilidades :
+ * Vista Lince
+ * Encadenado
+ * Potencia Bruta
+-------------------------
+pokemon gumshoos
+altura : 70 cm
+peso : 14 kg
+habilidades :
+ * Vigilante
+ * Mandíbula Fuerte
+ * Adaptable
+-------------------------
+pokemon bewear
+altura : 210 cm
+peso : 135 kg
+habilidades :
+ * Peluche
+ * Zoquete
+ * Nerviosismo
+-------------------------
+pokemon oranguru
+altura : 150 cm
+peso : 76 kg
+habilidades :
+ * Foco Interno
+ * Telepatía
+ * Simbiosis
+-------------------------
+pokemon type-null
+altura : 190 cm
+peso : 120 kg
+habilidades :
+ * Armadura Batalla
+-------------------------
+pokemon silvally
+altura : 230 cm
+peso : 100 kg
+habilidades :
+ * Sistema Alfa
+-------------------------
+pokemon komala
+altura : 40 cm
+peso : 19 kg
+habilidades :
+ * Letargo Perenne
+-------------------------
+pokemon drampa
+altura : 300 cm
+peso : 185 kg
+habilidades :
+ * Cólera
+ * Herbívoro
+ * Aclimatación
+-------------------------
+pokemon greedent
+altura : 60 cm
+peso : 6 kg
+habilidades :
+ * Carrillo
+ * Gula
+-------------------------
+pokemon dubwool
+altura : 130 cm
+peso : 43 kg
+habilidades :
+ * Peluche
+ * Impasible
+ * Antibalas
+-------------------------
+pokemon obstagoon
+altura : 160 cm
+peso : 46 kg
+habilidades :
+ * Audaz
+ * Agallas
+ * Competitivo
+-------------------------
+pokemon indeedee-male
+altura : 90 cm
+peso : 28 kg
+habilidades :
+ * Foco Interno
+ * Sincronía
+ * Psicogénesis
+-------------------------
+pokemon meloetta-pirouette
+altura : 60 cm
+peso : 6 kg
+habilidades :
+ * Dicha
+-------------------------
+pokemon kangaskhan-mega
+altura : 220 cm
+peso : 100 kg
+habilidades :
+ * Amor Filial
+-------------------------
+pokemon audino-mega
+altura : 150 cm
+peso : 32 kg
+habilidades :
+ * Alma Cura
+-------------------------
+pokemon pidgeot-mega
+altura : 220 cm
+peso : 50 kg
+habilidades :
+ * Indefenso
+-------------------------
+pokemon lopunny-mega
+altura : 130 cm
+peso : 28 kg
+habilidades :
+ * Intrépido
+-------------------------
+pokemon raticate-alola
+altura : 70 cm
+peso : 25 kg
+habilidades :
+ * Gula
+ * Entusiasmo
+ * Sebo
+-------------------------
+pokemon raticate-totem-alola
+altura : 140 cm
+peso : 105 kg
+habilidades :
+ * Gula
+ * Entusiasmo
+ * Sebo
+-------------------------
+pokemon gumshoos-totem
+altura : 140 cm
+peso : 60 kg
+habilidades :
+ * Vigilante
+ * Mandíbula Fuerte
+ * Adaptable
+-------------------------
+pokemon eevee-starter
+altura : 30 cm
+peso : 6 kg
+habilidades :
+ * Fuga
+ * Adaptable
+ * Anticipación
+-------------------------
+pokemon linoone-galar
+altura : 50 cm
+peso : 32 kg
+habilidades :
+ * Recogida
+ * Gula
+ * Pies Rápidos
+-------------------------
+pokemon indeedee-female
+altura : 90 cm
+peso : 28 kg
+habilidades :
+ * Ritmo Propio
+ * Sincronía
+ * Psicogénesis
