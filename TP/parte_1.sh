@@ -1,5 +1,19 @@
 #!/bin/bash
 
+buscar_archivo() {
+    local nombre_archivo=$1
+    local ruta_archivo
+
+    ruta_archivo=$(find . -type f -name "$nombre_archivo")
+    
+    if [ -z "$ruta_archivo" ]; then
+        echo "No se encontró el archivo '$nombre_archivo'."
+        exit 1
+    fi
+    
+    echo "$ruta_archivo"
+}
+
 if [ "$#" -ne 2 ]; then
     echo "Uso: $0 <padron> <directorio_salida>"
     exit 1
@@ -14,37 +28,18 @@ TIPO=$(( (PADRON % 18) + 1 ))
 #calculamos la estadistica minima
 ESTADISTICA_MINIMA=$(( (PADRON % 100) + 350 ))
 
-#buscamos el archivo "pokemon_types.csv" en el directorio actual y sub-directorios
-ARCHIVO_IDS_TIPOS=$(find . -type f -name "pokemon_types.csv" | head -n 1)
-
-#comprobamos que hayamos encontrado el archivo "pokemon_types.csv"
-if [ -z "$ARCHIVO_IDS_TIPOS" ]; then
-    echo "No se encontro el archivo 'pokemon_types.csv'."
-    exit 1
-fi
-
-#buscamos el archivo "pokemon_stats.csv" en el directorio actual y sub-directorios
-ARCHIVO_STATS_TIPOS=$(find . -type f -name "pokemon_stats.csv" | head -n 1)
-
-if [ -z "$ARCHIVO_STATS_TIPOS" ]; then
-    echo "No se encontro el archivo 'pokemon_stats.csv'."
-    exit 1
-fi
-
-#buscamos el archivo "pokemon.csv" en el directorio actual y sub-directorios
-ARCHIVO_NOMBRES=$(find . -type f -name "pokemon.csv" | head -n 1)
-
-if [ -z "$ARCHIVO_NOMBRES" ]; then
-    echo "No se encontro el archivo 'pokemon.csv'."
-    exit 1
-fi
+#buscamos los archivos necesarios en el directorio actual y sub-directorios
+ARCHIVO_IDS_TIPOS=$(buscar_archivo "pokemon_types.csv")
+ARCHIVO_STATS_TIPOS=$(buscar_archivo "pokemon_stats.csv")
+ARCHIVO_NOMBRES=$(buscar_archivo "pokemon.csv")
 
 #busco / creo si no encuentro el directorio pasado por parametro
 mkdir -p "$DIRECTORIO"
 RESULTADO="$DIRECTORIO/resultado.txt"
 
 #filtramos los ids de los pokemones que cumplan con el tipo
-POKEMON_FILTRADOS=$(grep -i ",${TIPO}," "$ARCHIVO_IDS_TIPOS" | cut -d',' -f1)
+POKEMON_FILTRADOS=$(grep -i ",$TIPO," "$ARCHIVO_IDS_TIPOS" | cut -d',' -f1)
+
 
 # Agregamos depuración para verificar que se están filtrando los pokemones correctamente
 echo "Pokemones filtrados por tipo $TIPO: $POKEMON_FILTRADOS"
