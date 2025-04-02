@@ -19,9 +19,9 @@ ARCHIVO_POKEMON=$(buscar_archivo "pokemon.csv")
 ARCHIVO_HABILIDADES=$(buscar_archivo "pokemon_abilities.csv")
 ARCHIVO_NOMBRES_HABILIDADES=$(buscar_archivo "ability_names.csv")
 
-echo "ingrese nombres de pokemones ("" para terminar)"
+echo "ingrese nombres de pokemones (" "<espacio>" " para terminar)"
 
-while IFS= read NOMBRE_POKEMON && [-n "$NOMBRE_POKEMON"]; do
+while IFS= read NOMBRE_POKEMON && [ -n "$NOMBRE_POKEMON" ]; do
 
     ID=$(grep -i ",$NOMBRE_POKEMON," "$ARCHIVO_POKEMON" | cut -d',' -f1)
 
@@ -31,28 +31,25 @@ while IFS= read NOMBRE_POKEMON && [-n "$NOMBRE_POKEMON"]; do
     fi
 
     #obtenemos altura y peso
-    ALTURA=$(grep -i ",$NOMBRE_POKEMON," "ARCHIVO_POKEMON" | cut -d',' -f4)
-    PESO=$(grep -i ",$NOMBRE_POKEMON," "ARCHIVO_POKEMON" | cut -d',' -f5)
+    ALTURA=$(grep -i ",$NOMBRE_POKEMON," "$ARCHIVO_POKEMON" | cut -d',' -f4)
+    PESO=$(grep -i ",$NOMBRE_POKEMON," "$ARCHIVO_POKEMON" | cut -d',' -f5)
+
+    ALTURA=$(( $ALTURA * 10 ))
+    PESO=$(( $PESO / 10 ))
 
     echo "-------------------------"
     echo "pokemon $NOMBRE_POKEMON"
-    echo "altura : $ALTURA"
-    echo "peso : $PESO"
+    echo "altura : $ALTURA cm"
+    echo "peso : $PESO kg"
     echo "habilidades :"
 
     #obtenemos las habilidades
-    HABILIDADES=$(grep "^ID," "$ARCHIVO_HABILIDADES" | cut -d',' -f2)
+    HABILIDADES=$(grep "^$ID," "$ARCHIVO_HABILIDADES" | cut -d',' -f2)
 
-    for $HABILIDAD_ID in $HABILIDADES; do
-        HABILIDAD_NOMBRE=$(grep "^HABILIDAD_ID,7," "$ARCHIVO_NOMBRES_HABILIDADES" | cut -d',' -f3)
-        if [ -n $HABILIDAD_NOMBRE ] 
+    for HABILIDAD_ID in $HABILIDADES; do
+        HABILIDAD_NOMBRE=$(grep "^$HABILIDAD_ID,7," "$ARCHIVO_NOMBRES_HABILIDADES" | cut -d',' -f3)
+        if [ -n "$HABILIDAD_NOMBRE" ]; then
             echo " * $HABILIDAD_NOMBRE"
         fi
     done
 done
-
-
-
-
-
-
